@@ -1,0 +1,27 @@
+*,*:after,*:before{padding:0;margin:0}
+body{font-family:"Merriweather",serif;min-height:100vh;display:flex;flex-direction:column}main{flex:1}
+header,footer{padding:1rem 0;text-align:center}header{font-size:1.5rem}
+a{color:black}
+footer{opacity:.75}footer div{display:table-cell;width:50vw}
+footer a{font-weight:700;text-decoration:none;background-size:contain}
+footer a:hover{opacity:.75}footer a:after{margin-left:2rem}
+.github{background:url(../images/github.svg) no-repeat left center}
+.github:after{content:'me on github'}
+.twitter{background:url(../images/twitter.svg) no-repeat left center}
+.twitter:after{content:'tweets'}
+p,ul{padding:.5rem;}
+@media screen and (min-width:1281px){
+  article{padding:1rem 6rem}
+}
+@media screen and (max-width:1280px){
+  article{padding: 1rem 5rem}
+}
+@media screen and (max-width:1024px) {
+  article{padding: 1rem 4rem}
+}
+@media screen and (max-width:768px) {
+  article{padding: 1rem 3rem}
+}
+@media screen and (max-width:480px) {
+  article{padding: 1rem 2rem}
+}
