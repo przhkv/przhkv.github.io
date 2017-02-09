@@ -3,7 +3,7 @@
 body{font-family:'Merriweather', serif;font-weight:300;min-height:100vh;display:flex;flex-direction:column}main{flex:1}
 header,footer{padding:1rem 0;text-align:center}header{font-size:1.5rem}
 a{color:black}
-.b{font-weight:700}.o75{opacity:.75}
+.b{font-weight:700}
 footer div{display:table-cell;width:50vw}
 footer a{text-decoration:none;background-size:contain}
 footer a:hover{opacity:.75}footer a:after{margin-left:2rem}
